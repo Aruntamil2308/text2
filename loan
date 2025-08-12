@@ -1,0 +1,15 @@
+employed = True 
+income = 30000
+credit_score = 800
+co_applicate = False 
+
+if employed == True:
+  if income >= 25000:
+    if credit_score > 750:
+      print('loan will approved with best intrust rate')
+    elif credit_score > 650:
+      print('loan will approved with standed intrust rate')
+  elif employed != True:
+      print('loan will be denied for not employed')
+else:
+   print('loan will be denied')
