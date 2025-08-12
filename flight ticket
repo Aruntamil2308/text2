@@ -1,0 +1,17 @@
+hello created by new update seat_avaiable = 10
+frequent_flyer = False
+travel_class = 'business'
+
+if seat_avaiable >1:
+  if frequent_flyer == True:
+    if travel_class == 'business':
+      print('Given 20 % discount')
+    elif travel_class == 'economy':
+      print ('Give 10 % discount')
+  elif frequent_flyer != True:
+          if travel_class == 'business':
+            print('Given 5% discount')
+          elif travel_class != 'business':
+            print('no discount for economy')
+else:
+  print('No seats are aviable')
